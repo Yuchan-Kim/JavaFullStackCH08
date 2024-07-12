@@ -22,10 +22,7 @@ public class CalcApp {
 					inputArr = input.split("");
 				}
 				
-				/*
-				 * 에러체크 안했음
-				 * 유저가 숫자말고 다른 타입의 데이터를 입력시 출력하는 경고 없음.
-				 */
+				
 				if (inputArr[1].equals("+")) {
 					System.out.println(">> " +Add.addition(Integer.parseInt(inputArr[0]),Integer.parseInt(inputArr[2])));
 				}else if(inputArr[1].equals("-")) {
