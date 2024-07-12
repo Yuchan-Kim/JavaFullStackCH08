@@ -41,6 +41,7 @@ public class CalcApp {
 				input = sc.nextLine();
 				if(input.equals("/q")) {
 					System.out.println("프로그램을 종료합니다.");
+					break;
 				}
 				
 			}
